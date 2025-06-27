@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  sami:
+    build: .
+    container_name: sami_assistant
+    volumes:
+      - .:/app
+    stdin_open: true
+    tty: true

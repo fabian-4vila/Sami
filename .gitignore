@@ -1,0 +1,28 @@
+# Entornos virtuales
+venv/
+.env
+.env.*
+
+# Archivos temporales
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Config de editores
+.vscode/
+.idea/
+
+# Notas temporales o datos que no quieres subir
+memory/historial.json
+memory/usuarios.json
+memory/notas/
+
+# Datos de entrenamiento o prueba
+data/entrenamiento/
+models/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db

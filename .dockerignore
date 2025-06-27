@@ -1,0 +1,14 @@
+.git/
+.gitignore
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+.vscode/
+.idea/
+*.env
+memory/historial.json
+memory/usuarios.json
+memory/notas/
+data/entrenamiento/
