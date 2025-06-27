@@ -17,11 +17,15 @@ __pycache__/
 # Notas temporales o datos que no quieres subir
 memory/historial.json
 memory/usuarios.json
-memory/notas/
+memory/notas/*
+!memory/notas/.gitkeep
 
 # Datos de entrenamiento o prueba
-data/entrenamiento/
-models/
+data/entrenamiento/*
+!data/entrenamiento/.gitkeep
+
+models/*
+!models/.gitkeep
 
 # Archivos de sistema
 .DS_Store
